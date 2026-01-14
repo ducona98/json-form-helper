@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "timestamp": 1768377051456,
+  "index": "https://ducona98.github.io/json-form-helper/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ducona98.github.io/json-form-helper/favicon.ico",
+        "https://ducona98.github.io/json-form-helper/index.html",
+        "https://ducona98.github.io/json-form-helper/main-PU65LOO6.js",
+        "https://ducona98.github.io/json-form-helper/styles-FOXK2EZ6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://ducona98.github.io/json-form-helper/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://ducona98.github.io/json-form-helper/index.html": "df504c7310566a1de49925a2984e2d1c83e0649b",
+    "https://ducona98.github.io/json-form-helper/main-PU65LOO6.js": "f5513c2f49ac72927f2453ae90a62e6ace6a3007",
+    "https://ducona98.github.io/json-form-helper/styles-FOXK2EZ6.css": "47c72ded0637e82ae7d72c301b9465cb7a8f7593"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

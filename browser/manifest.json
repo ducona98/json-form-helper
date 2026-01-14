@@ -1,0 +1,35 @@
+{
+  "name": "JSON / Form Helper",
+  "short_name": "JSON Helper",
+  "description": "A lightweight client-side tool to work with JSON faster and more comfortably",
+  "theme_color": "#3b82f6",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["developer", "productivity", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "JSON Diff",
+      "short_name": "Diff",
+      "description": "Compare two JSON objects",
+      "url": "/diff",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "64x64"
+        }
+      ]
+    }
+  ]
+}
